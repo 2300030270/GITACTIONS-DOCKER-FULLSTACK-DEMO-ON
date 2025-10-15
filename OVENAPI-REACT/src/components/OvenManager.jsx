@@ -206,7 +206,7 @@ const OvenManager = () => {
         )}
       </div>
 
-      {/* All Ovens Table */}
+      {/* All Ovens Table*/}
       <div>
         <h3>All Ovens</h3>
         {ovens.length === 0 ? (

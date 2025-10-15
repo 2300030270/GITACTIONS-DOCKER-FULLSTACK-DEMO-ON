@@ -2,7 +2,7 @@ import OvenManager from "./components/OvenManager";
 function App() {
   return (
     <div>
-      <OvenManager />
+      <OvenManager/>
     </div>
   );
 }
