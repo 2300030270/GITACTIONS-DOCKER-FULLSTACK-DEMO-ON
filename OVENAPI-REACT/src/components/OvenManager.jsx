@@ -19,7 +19,7 @@ const OvenManager = () => {
   const [error, setError] = useState("");
   const [editMode, setEditMode] = useState(false);
 
-  const baseUrl = config.url; // e.g., http://localhost:1111
+  const baseUrl = `${import.meta.env.VITE_API_URL}`;
 
   // Fetch all Ovens on mount
   useEffect(() => {
